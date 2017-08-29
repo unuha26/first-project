@@ -1,24 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
+        <title>Hello Guys!</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="assets/css/style.css" rel="stylesheet">
     </head>
     <body>
-    <div class="main" >
-        main
+    <header>
+        <div class="container">
+            <div class="profile-img col-xs-12 col-sm-6 col-md-3">
+                <img src="/assets/images/sponge.png" width="100%" class="img-responsive about-img">
+            </div>
+            <div class="profile-hi  col-xs-12 col-sm-6 col-md-5">
+                <y class="light">Hi, i'm</y> <y class="bold">FAJAR</y><h1 class="desc">Love Design and Programming</h1>
+            </div>
+            <div class="skill col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h2>PROGRAMMING</h2>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><z>CSS3</z></div></div>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"><z>HTML</z></div></div>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"><z>PHP</z></div></div>
+                <h2>Design</h2>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"><z>Adobe Illustrator</z></div></div>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><z>Adobe Premiere</z></div></div>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><z>Adobe Photoshop</z></div></div>
+                <div class="progress"><div class="progress-bar progress-bar-info" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"><z>Adobe Lightroom</z></div></div>
+            </div>
         </div>
-    <div class="menu">
-        menu
-        </div>
-    <div class="col-3 col-sm-5" style="background-color: blue;">
-        main
-        </div>
-    <div class="col-9 col-sm-7" style="background-color:aqua;">
-        menu
-        </div>
-    
+    </header>
+    <nav>
+    <div id="contact" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- konten modal-->
+			<div class="modal-content">
+				<div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p><a href="tel:+62-87-80800-7969" class="contact-detail" target="_blank">+62 87 80800 7969</a></p>
+                    <p><a href="mailto:unuha26@ymail.com" class="contact-detail" target="_blank">unuha26@ymail.com</a></p>
+                    <p><a href="http://instagram.com/unuha26" class="contact-detail" target="_blank">@unuha26</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="about" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- konten modal-->
+			<div class="modal-content">
+				<div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <p><a href="" class="contact-detail">Comingsoon</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+        <a class="menu" href="/works">WORKS</a>
+        <a class="menu" data-toggle="modal" data-target="#about">ABOUT</a>
+        <a class="menu" data-toggle="modal" data-target="#contact">CONTACT</a>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
